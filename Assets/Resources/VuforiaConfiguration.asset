@@ -8,12 +8,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: ARnYswr/////AAAAmTfxD63g4kzcl24BuYPnemgpIV0mlEa5OMSHviMhCylFVnv7a+SunBLsPEnzGGEfUuQrGdcFe7ixfD7iiRF2OY0jDjTI2QJV2oK34Ntne6N+4DWo4CYkgJ4NuOKlZ3NTaLITE6hz6YYhEuV8OSBCjf/eLxs8XTU5dohzU9xw+ams9cPzm9FqtBu2kyD3x8qsgqU/A/l6ltiRqzblzPJqHHQPy7kW6YDwvblAygG0ZCmu4oVbNFD42tmAZC0HKMZDLsrwlgn3XD+yKdW4MRReKhJWOjmu5Zb7bDxfVMUgtSdKVMxNsDEowle8tsB4RrpMSUEyBNo2Yf/1iYLZENlIXFI1WXMiOrfCgAf2716290vf
     ufoLicenseKey: QWEvUWowei8vLy8vQUFBQUtJRCtJKzhzcTBQT3FxRzltTS9mK3U1UFU5QjRhbThkSEJ3Sm9BQUhhK1V2Wlc0b3FFeFRLamxSbUpIZnI4OWFhTEtZNXdvOWlrM052VmwvZW5CMlo3czFYN3BhL0swTzg4RFg0YmhFWVJVK2gzbkJjR2Nxb0sxRmZjeS9WcW1pN1JtTXBjTEVibENoVE45emlJblJQZGM3ZEpNVzlaYXRSa1Rzb2N3Unk3UGRUTnl6MjZqMzhmVExwY1lQdVp6SXE3UUZwd01wRUw0V3djbTlNd2V0dnA2SklVcWZSUHJOWkQybjhnaGl3Z09Edm9vcnB2UmlCRC9sWlNPNENkL3M1ZWxzMy8zYjh6N2o0cm80ZVB6UFVRREJBY2xFbVpQZlJ4MlhFcmM1c0o2WHVFZVlPYU5OZjZqRmtXRGVLUld3YkF0a1pROEIyNUFaTjBTV1BsK2lLTEpNbzBmcW1SWVppVFNBRmVzWmw5Ylc=
+=======
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AQxmqJT/////AAAAmUOd06olJkbkt27zM6PbEP9YIMHFJi7CvdTr81bx0yUAGRd65GKPHQ2s0u/EAgl/ciXvcgat+7oc5wsHPgI+fZ+1PBZSyEryuAAo5T88Ao+2eWMHgc6YY5OM4IbAfpi1zD/UNcUvTtqqZ0qDLMGpRTIqY6cU55PBhb79YAKKsD6Ua/1Vo4q4rGBcFoAFzxL7jEXa+DamcotdSrVOIkkAg34WI/H1IDGNolsahKk1G/wiwdaMIbfJUTqhaHmidZi//a/S1b6cKbvAHXMyewsh/SXa52LNdN/TyU+AWtaTrHNNQX5mp5fmjEBIBww4hEHv2ho2kREHnd4B+ej+Kzzh5PVc1fIRgtQWQPgXah7o8uTM
+    ufoLicenseKey: QVhEbnFGci8vLy8vQUFBQUtNYVJmeVZBbDB3Z2dJR282MzgxL0ZGeFllVzlnaXlNb2JnQWdGRGlqdEp5ZW1VS1NxbWRHb2VrbWo4T0N0TVYxZHpFUDJQbGNGcVk3enZpUVVCKzAxa3E3enRFWjJibVEwYllSL05MVFFRRVpZOTVTcUl5NU9PZlltRTZvdDlVZnNRR3hkcEZXQ1dVdHdPWG82Y3ZubDcwUWEwTkZUZ2g3NEtaSE45UmtQWSsxWWxWc2pTNFhLYkNQa29xSUYzNzVicTlEUjNHSlIvdGhhUityRUpQN1E5YnlqcVFkUjRSaE93cVdLUWM1cm5mNmEzbHFXZjBQMURWRWQ3VHg3Si80VDNSbWNoOGFCdGp5QUdkWVJPODBNNFdFRWVMWkVkZkJMWUpLRk1hOElRa2hTOTBoSXNlWXlEKzdtM0haRVFORzNOUTMzTnJUL2U5YmZFM1lmNHM3OXgrbVVJMkRNVEpOOXVTRVQ5U04veXM=
+>>>>>>> cdbeb0b692377bd310a08c1ce519a0cfcce825ad
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -46,10 +55,18 @@ MonoBehaviour:
     dataSetsToLoad:
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+<<<<<<< HEAD
     - TarguetImages
     dataSetsToActivate:
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+=======
+    - TargetImages
+    dataSetsToActivate:
+    - VuforiaMars_Images
+    - VuforiaMars_VuMark
+    - TargetImages
+>>>>>>> cdbeb0b692377bd310a08c1ce519a0cfcce825ad
   videoBackground:
     clippingMode: 0
     numDivisions: 2
