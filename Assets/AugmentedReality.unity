@@ -346,6 +346,7 @@ GameObject:
   - component: {fileID: 446862100}
   - component: {fileID: 446862099}
   - component: {fileID: 446862098}
+  - component: {fileID: 446862102}
   m_Layer: 0
   m_Name: VirtualButton
   m_TagString: Untagged
@@ -360,8 +361,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 446862096}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0009999999, z: 0.000000040456655}
-  m_LocalScale: {x: 0.2, y: 1, z: 0.2}
+  m_LocalPosition: {x: 0.0078, y: 0.001, z: -0.3095}
+  m_LocalScale: {x: 0.52801186, y: 1, z: 0.2892897}
   m_Children: []
   m_Father: {fileID: 535309257}
   m_RootOrder: 1
@@ -433,23 +434,35 @@ MonoBehaviour:
   mSensitivity: 2
   mHasUpdatedPose: 1
   mPrevTransform:
-    e00: 3.3333333
+    e00: 8.800198
     e01: 0
     e02: 0
-    e03: 1.2
+    e03: 1.33
     e10: 0
     e11: 16.568634
-    e12: 0.36100444
-    e13: 0.016568705
+    e12: 0.52217436
+    e13: -0.5420857
     e20: 0
     e21: -1.8050221
-    e22: 3.313727
-    e23: -20.101805
+    e22: 4.793135
+    e23: -25.229797
     e30: 0
     e31: 0
     e32: 0
     e33: 1
   mPrevParent: {fileID: 535309251}
+--- !u!114 &446862102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446862096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b05dc2ae1d5ad4c18a9b7407698ad5c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  birdAnim: {fileID: 1033148951}
 --- !u!1001 &449283708
 Prefab:
   m_ObjectHideFlags: 0
@@ -1096,19 +1109,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: 9e8e96d31d222394087dd09880b9a261, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.0000000018626449
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: 9e8e96d31d222394087dd09880b9a261, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.9624229
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: 9e8e96d31d222394087dd09880b9a261, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.0000000037252899
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: 9e8e96d31d222394087dd09880b9a261, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.27155492
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: 9e8e96d31d222394087dd09880b9a261, type: 3}
       propertyPath: m_RootOrder
@@ -1126,6 +1139,18 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 10.37
       objectReference: {fileID: 0}
+    - target: {fileID: 400122, guid: 9e8e96d31d222394087dd09880b9a261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 148.48601
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700002, guid: 9e8e96d31d222394087dd09880b9a261, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: aad92b912a4794345baee2af2e5ed3c6, type: 2}
+    - target: {fileID: 9500000, guid: 9e8e96d31d222394087dd09880b9a261, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a24ec9cf4c2103646a47e0497a925d6b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9e8e96d31d222394087dd09880b9a261, type: 3}
   m_IsPrefabParent: 0
@@ -1147,7 +1172,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e868c18d4e0b5ab45af52645c6680844, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1228,6 +1253,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7f3badccffad6147ad9c0e4b70f9d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1033148951 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9500000, guid: 9e8e96d31d222394087dd09880b9a261,
+    type: 3}
+  m_PrefabInternal: {fileID: 1033148946}
 --- !u!1 &1041466171 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100122, guid: f2f7b64dd5c50f8479d6d1610f8537c1, type: 3}
